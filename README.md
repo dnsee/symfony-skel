@@ -11,6 +11,6 @@ Dnsee Symfony2 skeleton project. Includes:
 * removes AcmeDemoBundle
 
 
-* `git checkout symfony23 for` a symfony 2.3 skel
-* Checkout branch symfony22 for a symfony 2.2 skel
-* Checkout branch symfony21 for a symfony 2.1 skel
+* `git checkout symfony23` for a __symfony__ 2.3 skel
+* `git checkout symfony22` for a __symfony__ 2.2 skel
+* `git checkout symfony21` for a __symfony__ 2.1 skel
