@@ -29,5 +29,4 @@ assetic:
     use_controller: true
 
 swiftmailer:
-     mailer_transport: sendmail
 #    delivery_address: me@example.com

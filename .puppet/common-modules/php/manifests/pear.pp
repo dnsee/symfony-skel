@@ -23,11 +23,11 @@ class php::pear {
 
   package { 'graphviz':
     ensure => present,
-    before => Exec['pear install pear.phpdoc.org/phpDocumentor-alpha'],
+    #before => Exec['pear install --ignore-errors pear.phpdoc.org/phpDocumentor-alpha'],
   }
 
-  exec { 'pear install pear.phpdoc.org/phpDocumentor-alpha':
-    command => '/usr/bin/pear install pear.phpdoc.org/phpDocumentor-alpha',
-    creates => '/usr/share/php/phpDocumentor/installer.php',
-  }
+  #exec { 'pear install --ignore-errors pear.phpdoc.org/phpDocumentor-alpha':
+  #  command => '/usr/bin/pear install pear.phpdoc.org/phpDocumentor-alpha',
+  #  creates => '/usr/share/php/phpDocumentor/installer.php',
+  #}
 }

@@ -3,10 +3,6 @@
 
 $host = "vagrantbox.local"                      # must match hosts file
 $php_ext = ["intl", "curl", "mysql"]            # php extensions to enable
-$database_name = youandeni                      # leave undef if not needed
-$database_charset = "utf8"                      # See mysql manual for valid values   
-$do_composer_update = "no"                      # Vagrant up execution time grows longer if "yes" 
-$do_schema_update = "yes"                       # "yes" or "no"
 
 ## DO NOT EDIT BELOW THIS LINE (UNLESS YOU KNOW WHAT YOU'RE DOING) ##
 
@@ -63,20 +59,12 @@ class mysql_stage {
     database_user { "hudson@127.0.0.1":
         password_hash => "*8D98748618FBE0E1101AF688601FF00FB7F60E6B"
     }
-
-    if ($database_name != undef) {
-        database { [ $database_name, "${database_name}_test"]:
-            charset => $database_charset
-        }
-    }
 }
 
 # Symfony
 class symfony_stage {
     include symfony
     include symfony::cache
-    include symfony::composer
-    include symfony::dbal
 }
 
 # Env
