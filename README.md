@@ -10,6 +10,7 @@ Dnsee Symfony2 skeleton project. Includes:
 * ant build
 * removes AcmeDemoBundle
 
+======================
 
 * `git checkout symfony23` for a __symfony__ 2.3 skel
 * `git checkout symfony22` for a __symfony__ 2.2 skel
