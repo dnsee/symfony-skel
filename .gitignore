@@ -1,12 +1,15 @@
 /web/bundles/
 /app/bootstrap.php.cache
+/app/build
 /app/cache/*
 /app/config/parameters.yml
 /app/logs/*
 /vendor/
 /bin/
 /composer.phar
+/composer.lock
 
 .DS_Store
 .Trash
 .idea
+.vagrant
