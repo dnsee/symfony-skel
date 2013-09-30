@@ -1,8 +1,16 @@
 DNSEE Symfony Standard Edition Skeleton
 ========================
 
-* Checkout branch __symfony23__ for a symfony 2.3 skel
+Dnsee Symfony2 skeleton project. Includes:
 
-* Checkout branch __symfony22__ for a symfony 2.2 skel
+* config/parameters for dev and prod environments
+* capfile with preloaded recipes
+* vagrantfile with puppet provisioning
+* empty cache and log directories
+* ant build
+* removes AcmeDemoBundle
 
-* Checkout branch __symfony21__ for a symfony 2.1 skel
+
+* `git checkout symfony23 for` a symfony 2.3 skel
+* Checkout branch symfony22 for a symfony 2.2 skel
+* Checkout branch symfony21 for a symfony 2.1 skel
