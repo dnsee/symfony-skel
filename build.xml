@@ -132,7 +132,7 @@
 
     <target name="composer"  description="Download Composer">
         <exec executable="wget" failonerror="true">
-          <arg value="-nc" />
+          <arg value="-rnH" />
           <arg value="http://getcomposer.org/composer.phar" />
         </exec>
         <exec executable="php" failonerror="true">
