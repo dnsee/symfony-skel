@@ -33,7 +33,6 @@
         "phploc/phploc": "*",
         "squizlabs/php_codesniffer": "dev-report-memory-improvements",
         "phpmd/phpmd": "dev-master",
-        "theseer/phpdox": "0.5.*@dev",
         "covex-nn/phpcb": "1.0.*@dev"
     },
     "scripts": {
