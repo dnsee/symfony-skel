@@ -15,7 +15,7 @@
         {
             "name": "Andrea Giuliano",
             "email": "giulianoand@gmail.com"
-        },
+        }
     ],
     "autoload": {
         "psr-0": { "": "src/" }
