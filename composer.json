@@ -1,8 +1,22 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "dnsee/symfony-skel",
     "license": "MIT",
     "type": "project",
-    "description": "The \"Symfony Standard Edition\" distribution",
+    "description": "The \"Symfony Dnsee\" distribution",
+    "authors": [
+        {
+            "name": "David Funaro",
+            "email": "ing.davidino@gmail.com"
+        },
+        {
+            "name": "Mauro Maggi",
+            "email": "maurotdo@gmail.com"
+        },
+        {
+            "name": "Andrea Giuliano",
+            "email": "giulianoand@gmail.com"
+        },
+    ],
     "autoload": {
         "psr-0": { "": "src/" }
     },
@@ -26,7 +40,6 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
         "dnsee/capifony": "dev-master"
-
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
