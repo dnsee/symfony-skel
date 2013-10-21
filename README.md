@@ -10,6 +10,13 @@ Dnsee Symfony2 skeleton project. Includes:
 * ant build
 * removes AcmeDemoBundle
 
+Installation
+======================
+```sh
+php composer.phar create-project dnsee/symfony-skel <your-path> -sdev
+```
+
+Branches
 ======================
 
 * `git checkout symfony23` for a __symfony__ 2.3 skel
