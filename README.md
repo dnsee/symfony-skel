@@ -13,7 +13,7 @@ Dnsee Symfony2 skeleton project. Includes:
 Installation
 ======================
 ```sh
-php composer.phar create-project dnsee/symfony-skel <your-path> -sdev
+php composer.phar create-project dnsee/symfony-skel <your-path>
 ```
 
 Branches
