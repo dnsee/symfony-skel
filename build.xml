@@ -116,7 +116,11 @@
         <exec executable="wget" failonerror="true">
           <arg value="-rnH" />
           <arg value="http://phpdox.de/releases/phpdox.phar" />
-          <arg value="-P ${basedir}/bin/" />
+          <arg value="-O${basedir}/bin/phpdox" />
+        </exec>
+        <exec executable="chmod" failonerror="false">
+          <arg value="775" />
+          <arg value="${basedir}/bin/phpdox" />
         </exec>
         <exec executable="${basedir}/bin/phpdox">
             <arg value="-f" />
