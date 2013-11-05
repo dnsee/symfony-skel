@@ -30,3 +30,4 @@ assetic:
 
 swiftmailer:
 #    delivery_address: me@example.com
+    transport:  sendmail
