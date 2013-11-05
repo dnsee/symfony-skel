@@ -24,12 +24,6 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:dnsee/dnsee-capifony.git"
-        }
-    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.3.*",
@@ -43,7 +37,7 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
-        "dnsee/capifony": "dev-master"
+        "agiuliano/capifony-recipes": "dev-master"
     },
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
