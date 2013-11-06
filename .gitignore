@@ -4,7 +4,7 @@
 /app/config/parameters.yml
 /app/logs/*
 /bin/
-/vendor/*
+/vendor/
 /web/bundles/
 /web/css/
 /web/js/
