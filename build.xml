@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="name-of-project" default="build">
+<project name="Symfony2-project" default="build">
     <target name="build.xml" depends="build-parallel"/>
 
     <target name="build-parallel" depends="prepare,lint,tools-parallel,phpcb"/>
