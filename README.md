@@ -1,5 +1,5 @@
 DNSEE Symfony Standard Edition Skeleton
-========================
+=======================================
 
 Dnsee Symfony2 skeleton project. Includes:
 
@@ -11,7 +11,8 @@ Dnsee Symfony2 skeleton project. Includes:
 * removes AcmeDemoBundle
 
 Installation
-======================
+============
+
 ```sh
-php composer.phar create-project dnsee/symfony-skel <your-path>
+$ php composer.phar create-project dnsee/symfony-skel <your-path>
 ```
