@@ -1,6 +1,5 @@
 imports:
     - { resource: config.yml }
-    - { resource: parameters_dev.yml }
 
 framework:
     router:
@@ -30,3 +29,4 @@ assetic:
 
 swiftmailer:
 #    delivery_address: me@example.com
+    transport:  sendmail
