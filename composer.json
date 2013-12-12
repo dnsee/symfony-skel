@@ -42,7 +42,7 @@
     "require-dev":{
         "phpunit/phpunit": "3.7.*",
         "phploc/phploc": "*",
-        "squizlabs/php_codesniffer": "dev-report-memory-improvements",
+        "squizlabs/php_codesniffer": "dev-phpcs-fixer",
         "phpmd/phpmd": "1.5.*",
         "covex-nn/phpcb": "1.0.*@dev",
         "sebastian/phpcpd": "2.0.*@dev"
