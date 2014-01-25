@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Symfony2-project" default="build">
-    <target name="build.xml" depends="prepare,lint,test,phpcb"/>
+    <target name="build.xml" depends="prepare,test"/>
 
     <target name="test" description="Run test">
             <sequential>
