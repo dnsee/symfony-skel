@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="Symfony2-project" default="build">
-    <target name="build.xml" depends="prepare,test"/>
+    <target name="build.xml" depends="test"/>
 
     <target name="test" description="Run test">
             <sequential>
                 <antcall target="phpunit"/>
             </sequential>
-    </target>
-
-    <target name="clean" description="Cleanup build artifacts">
-        <delete dir="${basedir}/app/build/api"/>
-        <delete dir="${basedir}/app/build/code-browser"/>
-        <delete dir="${basedir}/app/build/coverage"/>
-        <delete dir="${basedir}/app/build/logs"/>
-        <delete dir="${basedir}/app/build/pdepend"/>
-    </target>
-
-    <target name="prepare" depends="clean" description="Prepare for build">
-        <mkdir dir="${basedir}/app/build/api"/>
-        <mkdir dir="${basedir}/app/build/code-browser"/>
-        <mkdir dir="${basedir}/app/build/coverage"/>
-        <mkdir dir="${basedir}/app/build/logs"/>
-        <mkdir dir="${basedir}/app/build/pdepend"/>
-        <mkdir dir="${basedir}/app/build/phpdox"/>
     </target>
 
     <target name="composer"  description="Download Composer">
