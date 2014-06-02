@@ -34,10 +34,10 @@
         "symfony/swiftmailer-bundle": "~2.3",
         "symfony/monolog-bundle": "~2.4",
         "sensio/framework-extra-bundle": "~3.0",
-        "incenteev/composer-parameter-handler": "~2.0"
+        "incenteev/composer-parameter-handler": "~2.0",
+        "sensio/distribution-bundle": "~2.3"
     },
     "require-dev":{
-        "sensio/distribution-bundle": "~2.3",
         "sensio/generator-bundle": "~2.3",
         "agiuliano/capifony-recipes": "1.*",
         "phpunit/phpunit": "3.7.*",
