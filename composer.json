@@ -37,7 +37,7 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "sensio/distribution-bundle": "~2.3"
     },
-    "require-dev":{
+    "require-dev": {
         "sensio/generator-bundle": "~2.3",
         "agiuliano/capifony-recipes": "1.*",
         "phpunit/phpunit": "3.7.*",
@@ -66,7 +66,6 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "stable",
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
@@ -74,7 +73,7 @@
             "file": "app/config/parameters.yml"
         },
         "branch-alias": {
-            "dev-master": "2.3-dev"
+            "dev-master": "2.5-dev"
         }
     }
 }
